@@ -5,7 +5,9 @@ import { AppRouter } from "./router/AppRouter";
 
 import { store } from "./store";
 
+
 export const CalendarApp = () => {
+
   return (
     <Provider store={store}>
       <BrowserRouter>
